@@ -16,7 +16,6 @@ import JoinRightIcon from '@mui/icons-material/JoinRight';
 import LeakAddIcon from '@mui/icons-material/LeakAdd';
 import RouteIcon from '@mui/icons-material/Route';
 
-// import {Git} from 'font-awesome'
 const Skills = () => {
     return (
       <SkillsStyled>
@@ -86,6 +85,11 @@ const SkillsStyled = styled.section`
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 2rem;
+
+   @media all and (max-width: 715px) {
+     grid-template-columns: repeat(1,1fr);
+   }
+
 }
 `;
 export default Skills

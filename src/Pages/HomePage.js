@@ -16,7 +16,7 @@ const HomePage = () =>
         </div>
         <div className="typography">
           <h1>
-            Hii I am <span>Vinay Kumar</span>
+            Hii, I am <span>Vinay Kumar</span>
           </h1>
           <p>
             I am <span>{text}</span>

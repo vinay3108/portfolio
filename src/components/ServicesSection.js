@@ -41,13 +41,23 @@ const ServicesSection = () => {
     );
 }
 const ServicesSectionStyled = styled.section`
-.services{
+  margin-top:4rem;
+  .services {
     margin-top: 5rem;
-    display: flex;
-    justify-content: space-between;
-    .mid-card{
-        margin:0 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    @media screen and (max-width: 1000px) {
+      flex-direction: column;
+      grid-template-columns: repeat(2, 1fr);
+     
     }
-}
-`
+    @media screen and (max-width: 950px) {
+      flex-direction: column;
+      grid-template-columns: repeat(1, 1fr);
+
+     
+    }
+  }
+`;
 export default ServicesSection

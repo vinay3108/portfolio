@@ -5,8 +5,9 @@ const Particle = () =>
       
     return (
       <>
-            <Particles height="100vh"
-                width="100%"
+        <Particles
+          height="100vh"
+          width="100%"
           params={{
             particles: {
               number: {
@@ -17,7 +18,7 @@ const Particle = () =>
                 },
               },
               color: {
-                value: "#ffffff",
+                value: "#636e72",
               },
               shape: {
                 type: "circle",

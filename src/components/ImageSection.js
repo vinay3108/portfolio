@@ -45,7 +45,7 @@ const ImageSectionStyled = styled.div`
   display: flex;
   .left-content {
     width: 100%;
-    height:40vh;
+    height: 40vh;
     img {
       width: 90%;
       height: 100%;
@@ -58,27 +58,43 @@ const ImageSectionStyled = styled.div`
       color: var(--white-color);
       span {
         font-size: 2rem;
-       
       }
     }
-    .paragraph{
-        padding: 1rem 0;
-
+    .paragraph {
+      padding: 1rem 0;
     }
     .about-info {
       display: flex;
       padding-bottom: 1.4rem;
-      .info-title{
-          padding-right: 3rem;
-         p{
-             font-weight:600 ;
-         }
-      }
-      .info-title,.info{
-        p{
-            padding: 0.3rem 0;
+      .info-title {
+        padding-right: 3rem;
+        p {
+          font-weight: 600;
         }
       }
+      .info-title,
+      .info {
+        p {
+          padding: 0.3rem 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+
+    .left-content {
+      height: 40vh;
+      width: 50%;
+      margin-bottom: 2rem;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .left-content {
+      height: 40vh;
+      width: 60%;
+      margin-bottom: 2rem;
     }
   }
 `;

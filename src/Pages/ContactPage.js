@@ -67,18 +67,24 @@ const ContactPageStyled = styled.section`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
-    .right-content{
-        background-color: var(--background-color-grey);
+    .right-content {
+      background-color: var(--background-color-grey);
+      @media all and(max-width:500px) {
+        width: 70%;
+      }
     }
-    .contact-title{
-        h4{
-            color:var(--white-color);
-            padding:1rem 0;
-            font-size: 1.8rem;
-        }
+    .contact-title {
+      h4 {
+        color: var(--white-color);
+        padding: 1rem 0;
+        font-size: 1.8rem;
+      }
     }
     .form {
       width: 100%;
+      @media all and(max-width:500px) {
+        width: 70%;
+      }
       .form-field {
         margin-top: 2rem;
         position: relative;
@@ -104,11 +110,21 @@ const ContactPageStyled = styled.section`
           background: transparent;
           border: 1px solid var(--border-color);
           outline: none;
-          color:inherit;
-          width:100%;
-          padding:0.8rem 1rem;
+          color: inherit;
+          width: 100%;
+          padding: 0.8rem 1rem;
         }
       }
+    }
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(1, 1fr);
+      margin-right: 1rem;
+      .right-content {
+        margin-top: 2rem;
+      }
+    }
+    @media screen and (max-width: 900px) {
+      margin-right: 2rem;
     }
   }
 `;
