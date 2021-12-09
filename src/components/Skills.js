@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { InnerLayout, MainLayout } from '../Styles/Layout';
+import { InnerLayout } from '../Styles/Layout';
 import ProgressBar from './ProgressBar';
 import Title from './Title';
 const Skills = () => {

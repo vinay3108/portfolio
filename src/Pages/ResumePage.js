@@ -1,8 +1,7 @@
 import React from 'react'
 import Resume from '../components/Resume'
 import Skills from '../components/Skills'
-import Title from '../components/Title'
-import { InnerLayout, MainLayout } from '../Styles/Layout'
+import {  MainLayout } from '../Styles/Layout'
 
 const ResumePage = () => {
     return (

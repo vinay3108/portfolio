@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Particle from '../components/Particle';
-import FacebookIcon from '@material-ui/icons/Facebook'
-import { YouTube } from '@material-ui/icons';
-import { GitHub } from '@material-ui/icons';
+import { GitHub,LinkedIn } from '@material-ui/icons';
 import {useTypewriter} from 'react-simple-typewriter'
 const HomePage = () =>
 {
@@ -24,14 +22,14 @@ const HomePage = () =>
             I am <span>{text}</span>
           </p>
           <div className="icons">
-            <a href="#" className="icon i-facebook">
-              <FacebookIcon />
-            </a>
-            <a href="#" className="icon i-github">
+            <a
+              href="https://github.com/vinay3108/portfolio"
+              className="icon i-github"
+            >
               <GitHub />
             </a>
-            <a href="#" className="icon i-youtube">
-              <YouTube />
+            <a href="https://linkedin.com/in/vinaykr3108" className="icon i-linkedln">
+              <LinkedIn />
             </a>
           </div>
         </div>

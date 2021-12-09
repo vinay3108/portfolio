@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import styled from 'styled-components';
 import { MainLayout, InnerLayout } from '../Styles/Layout';
 import Title from '../components/Title';
 import portfolios from '../data/portfolios';

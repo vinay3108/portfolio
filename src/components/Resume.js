@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { InnerLayout, MainLayout } from '../Styles/Layout'
+import { InnerLayout} from '../Styles/Layout'
 import Title from './Title'
 import SmallTitle from './SmallTitle';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter'

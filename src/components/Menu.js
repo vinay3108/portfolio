@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import portfolios from '../data/portfolios';
-import { GitHub,Pinterest,LinkedIn } from '@material-ui/icons';
+import { GitHub,LinkedIn } from '@material-ui/icons';
 const Menu = ({menuItem}) => {
     return (
         <MenuItemStyled>

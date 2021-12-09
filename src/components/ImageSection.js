@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
-import ResumePage from '../Pages/ResumePage';
 import resume from '../Images/resume.jpg'
 import PrimaryButton from './PrimaryButton';
 const ImageSection = () => {
     return (
         <ImageSectionStyled>
             <div className="left-content">
-                <img src={resume} alt="Resume Image" />
+                <img src={resume} alt="Resume" />
             </div>
             <div className="right-content">
               
