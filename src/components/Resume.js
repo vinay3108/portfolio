@@ -12,27 +12,41 @@ const Resume = () => {
         <Title title={"Resume"} span={"Resume"} />
         <InnerLayout>
           <div className="small-title u-margin-top">
-            <SmallTitle
-              icon={<BusinessCenterIcon />}
-              title={"Working Experience"}
-            />
+            <SmallTitle icon={<School />} title={"Education"} />
           </div>
           <div className="resume-content">
             <ResumeItem
-              year={`2015 - 2018`}
-              title={"Computer Science"}
-              subTitle={"Susex University"}
-              text={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat hic corrupti quod!"
+              year={`2018-2022`}
+              title={
+                "NSUT West Campus formely name Ch.Braham  Prakash Govt. Engineering College"
               }
+              subTitle={"B.Tech"}
+              text={"8.0 CGPA Till 6th Semeseter"}
             />
-          </div>
-          <div className="small-title u-margin-top">
-            <SmallTitle
-              icon={<School />}
-              title={"School"}
+            <ResumeItem
+              year={`2015-2017`}
+              title={
+                "Sarvodaya Vidyalaya, Jorbagh"
+              }
+              subTitle={"XII"}
+              text={"73%"}
             />
+            <ResumeItem
+              year={`2015`}
+              title={
+                "Ratan Jee Modern School"
+              }
+              subTitle={"X"}
+              text={"8.6 CGPA"}
+            />
+            
+            
+            
+            
           </div>
+          {/* <div className="small-title u-margin-top">
+            <SmallTitle icon={<School />} />
+          </div> */}
         </InnerLayout>
       </ResumeStyled>
     );
@@ -45,8 +59,6 @@ const ResumeStyled = styled.section`
         border-left: 1px solid var(--border-color);
         padding-left: 20px;
     }
-    .u-margin-top{
-        margin-top: 4rem;
-    }
+   
 `
 export default Resume

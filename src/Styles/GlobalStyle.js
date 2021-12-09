@@ -58,7 +58,10 @@ const GlobalStyle = createGlobalStyle`
 
 
     //Utility Classes
-  
+   .u-margin-top{
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
 `;
 
 export default GlobalStyle;
