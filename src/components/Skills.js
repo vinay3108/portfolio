@@ -5,8 +5,7 @@ import ProgressBar from './ProgressBar';
 import Title from './Title';
 import SmallTitle from './SmallTitle';
 import { School } from "@material-ui/icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
 import "font-awesome/css/font-awesome.min.css";
 import CloudSyncIcon from "@mui/icons-material/CloudSync";
 // import Cloud from '../Images/icons/frame.svg';

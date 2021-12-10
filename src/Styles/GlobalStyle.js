@@ -139,7 +139,7 @@ const GlobalStyle = createGlobalStyle`
   //Nav Toggler
    .ham-burger-menu{
       position: absolute;
-      right:10%;
+      right:0%;
       top:5%;
       opacity: 0;
       z-index:15;
